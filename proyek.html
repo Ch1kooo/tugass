@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambalabu Gaming & Merchandise Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Bahnschrift', SemiBold;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: url('https://i.ytimg.com/vi/9s4cbKx1W_I/maxresdefault.jpg') no-repeat center center/cover;
+            color: #ffff;
+            padding: 250px 0;
+        }
+
+        .card {
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .btn-light {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        .btn-light:hover {
+            background-color: #e2e6ea;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Ambalabu Gaming & Merchandise Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to Ambalabu Store</h1>
+            <p class="lead">The best gaming store & merchandise that you can find !</p>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our HOT Products !</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow">
+                        <img src="https://pbs.twimg.com/media/GYUnJB8bkAADhnH?format=jpg&name=small" width="2000" height="450" class="card-img-top" alt="Consulting">
+                        <div class="card-body">
+                            <h5 class="card-title">Ambalabu</h5>
+                            <p class="card-text">The Original and The Most Purchased.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtf1MpMkK5WeQ74zzJFcMQLqjPA8Y6-5N5kw&s" width="2000" height="450" class="card-img-top" alt="Marketing">
+                        <div class="card-body">
+                            <h5 class="card-title">Labumut</h5>
+                            <p class="card-text">The Cutest Among All.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow">
+                        <img src="https://pbs.twimg.com/media/GapzLXwaYAAJuKk?format=jpg&name=900x900" width="2000" height="450" class="card-img-top" alt="Development">
+                        <div class="card-body">
+                            <h5 class="card-title">King Labu</h5>
+                            <p class="card-text">The Most Handsome Among All.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg -light">
+        <div class="container">
+            <h2 class="text-center mb-4">Want to buy ?</h2>
+            <p class="text-center">You can send us a message !</p>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                </div>
+                <button class="btn btn-light btn-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 Ambalabu Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
